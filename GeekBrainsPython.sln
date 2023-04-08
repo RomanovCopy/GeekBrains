@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001PythonApplication", "001PythonApplication\001PythonApplication.pyproj", "{FF96552F-8AD0-417C-B751-DD31C9A924B7}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001Day_of_the_week", "001Day_of_the_week\001Day_of_the_week.pyproj", "{CC52571E-69C8-4142-972D-C419EBAAACDD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002Distance_between_points", "Distance_between_points\002Distance_between_points.pyproj", "{F058DE21-51ED-440D-A56F-2A8ACD479401}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "003Range_of_possible_coordinates", "003Range_of_possible_coordinates\003Range_of_possible_coordinates.pyproj", "{B2A19094-5711-4CE2-AA22-5D7AC3814A9C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "004Even_numbers_in_the_interval", "004Even_numbers_in_the_interval\004Even_numbers_in_the_interval.pyproj", "{221F3D10-C4DA-414A-8DAE-365487A0178E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +17,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF96552F-8AD0-417C-B751-DD31C9A924B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF96552F-8AD0-417C-B751-DD31C9A924B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC52571E-69C8-4142-972D-C419EBAAACDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC52571E-69C8-4142-972D-C419EBAAACDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F058DE21-51ED-440D-A56F-2A8ACD479401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F058DE21-51ED-440D-A56F-2A8ACD479401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A19094-5711-4CE2-AA22-5D7AC3814A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A19094-5711-4CE2-AA22-5D7AC3814A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221F3D10-C4DA-414A-8DAE-365487A0178E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221F3D10-C4DA-414A-8DAE-365487A0178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
