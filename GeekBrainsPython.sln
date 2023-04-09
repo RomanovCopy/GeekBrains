@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001Sequence_number_factorials", "001Sequence_number_factorials\001Sequence_number_factorials.pyproj", "{DF594522-A7DF-4B6E-A840-8613649B1C3E}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002Truth_diagram", "002Truth_diagram\002Truth_diagram.pyproj", "{93DA33F7-6234-477D-AF3B-1BB3813EA06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DF594522-A7DF-4B6E-A840-8613649B1C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF594522-A7DF-4B6E-A840-8613649B1C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DA33F7-6234-477D-AF3B-1BB3813EA06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DA33F7-6234-477D-AF3B-1BB3813EA06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
