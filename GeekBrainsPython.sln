@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002Truth_diagram", "002Trut
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "003Intersection_of_two_ines", "003Intersection_of_two_ines\003Intersection_of_two_ines.pyproj", "{B5E00FAA-905D-4B8C-B8B1-F90E6311E772}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "004List_shift", "004List_shift\004List_shift.pyproj", "{06E5D008-164C-4196-8FA5-9AA7D4B89A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{93DA33F7-6234-477D-AF3B-1BB3813EA06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E00FAA-905D-4B8C-B8B1-F90E6311E772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5E00FAA-905D-4B8C-B8B1-F90E6311E772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E5D008-164C-4196-8FA5-9AA7D4B89A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E5D008-164C-4196-8FA5-9AA7D4B89A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
