@@ -13,7 +13,7 @@ def isPrime(n):
         d += 2
     return d * d > n
 
-
+#простые множители
 def primeFactors(n):
     d = []
     for i in range(2, n):
