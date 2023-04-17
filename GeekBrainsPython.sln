@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001List_of_prime_factors_of_a_number", "001List_of_prime_factors_of_a_number\001List_of_prime_factors_of_a_number.pyproj", "{99DD207D-AFD2-4D65-876B-282761FD4A9B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002Ice_cream", "Ice_cream\002Ice_cream.pyproj", "{6041BECB-61BB-48D1-B881-D543DF1BC4CE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "003Number_π_with_a_given_precision", "Number_π_with_a_given_precision\003Number_π_with_a_given_precision.pyproj", "{EFC7567E-7741-4B44-8DE2-C646042F4F26}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "004The_sum_of_two_polynomials", "004The_sum_of_two_polynomials\004The_sum_of_two_polynomials.pyproj", "{53FA9B03-A0FF-4DEE-BEEC-23DF81449A34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{99DD207D-AFD2-4D65-876B-282761FD4A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99DD207D-AFD2-4D65-876B-282761FD4A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6041BECB-61BB-48D1-B881-D543DF1BC4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6041BECB-61BB-48D1-B881-D543DF1BC4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC7567E-7741-4B44-8DE2-C646042F4F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC7567E-7741-4B44-8DE2-C646042F4F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FA9B03-A0FF-4DEE-BEEC-23DF81449A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FA9B03-A0FF-4DEE-BEEC-23DF81449A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

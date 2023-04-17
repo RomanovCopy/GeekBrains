@@ -5,7 +5,8 @@
 
 # является ли число простым
 def isPrime(n):
-    if n % 2 == 0:  # исключаем из проверки четные числа
+    # исключаем из проверки четные числа кроме двойки
+    if n % 2 == 0:  
         return n == 2
     # исключаем четные и превосходящие квадраный корень из n делители
     d = 3
@@ -17,10 +18,12 @@ def isPrime(n):
 def primeFactors(n):
     d = []
     for i in range(2, n):
-        if isPrime(i) and n % i == 0:
-            d.append(f'{i}, ')
+        if isPrime(i):
+            while n%i==0:
+                d.append(f'{i}, ')
+                n/=i
     return d
 
 prime_factors=primeFactors(int(input("Число : ")))
 
-print(f"Найдено {len(prime_factors)} простых множителей.\nПростые множители : {''.join(prime_factors)}")
+print(f"Найдено простых множителей: {len(prime_factors)} .\nСписок простых множителей : {''.join(prime_factors)}")
