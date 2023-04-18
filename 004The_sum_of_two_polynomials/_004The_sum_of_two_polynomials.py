@@ -1,14 +1,11 @@
 
-# Даны два файла, в каждом из которых находится запись многочлена.
-# Найдите сумму данных многочленов
 
-
+#СЃС‡РёС‚С‹РІР°РЅРёРµ СЃС‚СЂРѕРєРё РёР· С„Р°Р№Р»Р°
 def reading_data(path):
     with open(path, "r", encoding="utf-8") as file:
         return file.readline()
 
-
-# разбиение многочлена на одночлены
+#СЂР°Р·Р±РёРµРЅРёРµ РјРЅРѕРіРѕС‡Р»РµРЅР° РЅР° РѕРґРЅРѕС‡Р»РµРЅС‹
 def division_into_monomials2(polynomial):
     p = str(polynomial).replace("\n", "")
     length = len(p)
@@ -52,16 +49,21 @@ def division_into_monomials2(polynomial):
     return coeff, var, deg
 
 
-# приведение подобных членов
-# def ghost_like_members(polynomial):
-#    last=""
-#    for mono in polynomial:
-#        for i in range(len(mono)):
-#            if mono[i].isdigit and last=='digital':
+def addition_of_monomials(mono1, mono2):
+    m1=str('')
+    m2=str('')
+    for ch in str(mono1):
+        if ch.isalpha() or ch=='^':
+            m1+=ch
+    if len(m1)>0:
+        m2 = str(mono2).__contains__(m1)
+    return m2
+
 
 
 polynomial1 = reading_data("polynomial1.txt")
 polynomial2 = reading_data("polynomial2.txt")
 polynom1 = division_into_monomials2(polynomial1)
 polynom2 = division_into_monomials2(polynomial2)
+addition_of_monomials('25x^2', '2.3x^2 + x + 8' )
 print(f"{polynom1}\n{polynom2}")
