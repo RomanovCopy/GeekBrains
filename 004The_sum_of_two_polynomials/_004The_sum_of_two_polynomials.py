@@ -6,14 +6,15 @@ def reading_data(path):
         return file.readline().replace('\n','')
 
 #разбиение многочлена на одночлены
+#на вход подается многочлен в виде строки
 def division_into_monomials2(polynomial):
-    p = str(polynomial).replace("\n", "")
+    p = str(polynomial)
     length = len(p)
     count = 0
     i = 0
-    coeff = {}
-    var = {}
-    deg = {}
+    coeff = {}#словарь коэффициентов(позиция в многочлене : значение)
+    var = {}#словарь переменных(позиция в многочлене : значение)
+    deg = {}#словарь степеней(позиция в многочлене : значение)
     num=False
     while i < (len(p)):
         if p[i].isdigit() or p[i] == "^":
