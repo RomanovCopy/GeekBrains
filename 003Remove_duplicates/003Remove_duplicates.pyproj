@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>dc5658cb-c0e7-47cb-b46c-7f24dacf7012</ProjectGuid>
+    <ProjectGuid>ac9fe00d-296c-4308-acf4-8068320eaa49</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>All_elements_are_more_than_five.py</StartupFile>
+    <StartupFile>_003Remove_duplicates.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>All_elements_are_more_than_five</Name>
-    <RootNamespace>All_elements_are_more_than_five</RootNamespace>
+    <Name>003Remove_duplicates</Name>
+    <RootNamespace>003Remove_duplicates</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="All_elements_are_more_than_five.py" />
+    <Compile Include="_003Remove_duplicates.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

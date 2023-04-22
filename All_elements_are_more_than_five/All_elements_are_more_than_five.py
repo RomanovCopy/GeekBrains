@@ -5,6 +5,6 @@
 from random import randint
 
 s = int(input("Размер списка : "))
-v2=lambda: [randint(1, 11) for _ in range(s)]
-lst=[filter(v2 )]
-print(  )
+lst = [randint(1, 11) for _ in range(s)]
+print(f"Сгенерированный список : {lst}")
+print(f"Элементы списка большие чем 5 : {list(filter(lambda x: x>5,lst))}")
