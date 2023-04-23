@@ -3,21 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001Arithmetic_progression_by_parameters", "001Arithmetic_progression_by_parameters\001Arithmetic_progression_by_parameters.pyproj", "{158BFB9C-FF96-44A0-A29C-0C238E5114CF}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002Belonging_to_the_specified_range", "002Belonging_to_the_specified_range\002Belonging_to_the_specified_range.pyproj", "{5C22D4C9-4B90-4D7D-B562-523EA71E3E6E}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{158BFB9C-FF96-44A0-A29C-0C238E5114CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{158BFB9C-FF96-44A0-A29C-0C238E5114CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C22D4C9-4B90-4D7D-B562-523EA71E3E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C22D4C9-4B90-4D7D-B562-523EA71E3E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
