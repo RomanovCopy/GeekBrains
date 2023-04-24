@@ -4,6 +4,8 @@
 # Приоритет операций стандартный.
 
 
+
+
 def expression_parsing(expression):
     expression_elements = {}
     element = []
@@ -27,13 +29,16 @@ def expression_parsing(expression):
         last = i + 1
     return expression_elements
 
-def calculation(expression_elements):
-    e=expression_elements
-    for key in e :
-        if e[key][1]=='o':
+#def calculation(expression_elements):
+#    e=expression_elements
+#    for key in e :
+#        if e[key][1]=='o':
 
 
 
-expression = expression_parsing(input("Введите строку выражения : "))
-calculation(expression)
+#expression = expression_parsing(input("Введите строку выражения : "))
+#calculation(expression)
 
+expr = "2 + 3 * 4"
+result = eval(expr)
+print(result)  # 14
