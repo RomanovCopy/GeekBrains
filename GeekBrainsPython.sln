@@ -7,7 +7,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001", "001\001.pyproj", "{B
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002", "002\002.pyproj", "{D3D60388-B171-43E3-A495-753966F3E8B0}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "003", "003\003.pyproj", "{8915E36C-4BB8-49B0-997A-336AA2D5A27B}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "String_expression_calculator", "003\String_expression_calculator.pyproj", "{8915E36C-4BB8-49B0-997A-336AA2D5A27B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
