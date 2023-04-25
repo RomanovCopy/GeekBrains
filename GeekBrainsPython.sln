@@ -7,7 +7,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "001", "001\001.pyproj", "{B
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002", "002\002.pyproj", "{D3D60388-B171-43E3-A495-753966F3E8B0}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "String_expression_calculator", "003\String_expression_calculator.pyproj", "{8915E36C-4BB8-49B0-997A-336AA2D5A27B}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "String_expression_calculator", "String_expression_calculator\String_expression_calculator.pyproj", "{B59962F1-06FF-4EE5-B619-C30612CD79F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +19,8 @@ Global
 		{B2688CC5-069D-4A4B-9D2D-0964665BBF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D60388-B171-43E3-A495-753966F3E8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3D60388-B171-43E3-A495-753966F3E8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8915E36C-4BB8-49B0-997A-336AA2D5A27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8915E36C-4BB8-49B0-997A-336AA2D5A27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59962F1-06FF-4EE5-B619-C30612CD79F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59962F1-06FF-4EE5-B619-C30612CD79F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

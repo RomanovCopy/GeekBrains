@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8915e36c-4bb8-49b0-997a-336aa2d5a27b</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>_003.py</StartupFile>
+    <ProjectGuid>b59962f1-06ff-4ee5-b619-c30612cd79f6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>String_expression_calculator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>String_expression_calculator</Name>
-    <RootNamespace>003</RootNamespace>
+    <RootNamespace>String_expression_calculator</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_003.py" />
+    <Compile Include="String_expression_calculator.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
