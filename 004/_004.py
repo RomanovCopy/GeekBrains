@@ -7,7 +7,7 @@
 #cow=float(input("Стоимость коровы : "))
 #calf=float(input("Стоимость теленка : "))
 
-summa=2000
+summa=1000
 heads=100
 bull=100
 cow=50
