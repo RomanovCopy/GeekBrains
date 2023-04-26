@@ -39,7 +39,7 @@ def execute(index):
         result=float(e)
     return result
 
-
+#порядок вычисления,сохранение и вывод
 def processing():
     result=0
     for index in range(len(expression_elements)):
