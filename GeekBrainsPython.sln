@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "002", "002\002.pyproj", "{D
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "String_expression_calculator", "String_expression_calculator\String_expression_calculator.pyproj", "{B59962F1-06FF-4EE5-B619-C30612CD79F6}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "004", "004\004.pyproj", "{AF2412B5-8F63-4E9E-9D9D-2D3F46452445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{D3D60388-B171-43E3-A495-753966F3E8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B59962F1-06FF-4EE5-B619-C30612CD79F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B59962F1-06FF-4EE5-B619-C30612CD79F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2412B5-8F63-4E9E-9D9D-2D3F46452445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2412B5-8F63-4E9E-9D9D-2D3F46452445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
