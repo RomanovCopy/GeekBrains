@@ -7,13 +7,15 @@
 #функция, которая принимает объект и вычисляет его 
 #характеристику.
 
-values = [0, 1, 2, 10, 6]
 
 def same_by(characteristic, objects):
-    list_values=[characteristic(obj) for obj in objects ]
-    return all(value for value in list_values)
+    list_values=[characteristic(obj) for obj in objects ]#список результатов
+    return all(value for value in list_values)#все результаты в списке = True
 
-characteristic=lambda x:x%2==0
+
+values = [0, 2, 10, 6]#список значений для проверки
+characteristic=lambda x:x%2==0 #условие проверки(кратность двум)
+
 
 if same_by(characteristic, values):
     print('same')
