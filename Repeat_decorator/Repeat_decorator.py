@@ -1,2 +1,18 @@
-#Создайте декоратор повторяющий функцию 
-#заданное количество раз.
+п»ї#РЎРѕР·РґР°Р№С‚Рµ РґРµРєРѕСЂР°С‚РѕСЂ РїРѕРІС‚РѕСЂСЏСЋС‰РёР№ С„СѓРЅРєС†РёСЋ 
+#Р·Р°РґР°РЅРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЂР°Р·.
+
+def repeat(n):
+    def our_repeat(func):
+        def decorator(*args):
+            for i in range(n):
+                func(args[0])
+        return decorator
+    return our_repeat
+
+
+@repeat(3)
+def my_print(text):
+    print(text)
+
+
+my_print("Hello World!")
