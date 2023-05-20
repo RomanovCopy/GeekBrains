@@ -10,7 +10,7 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Task_36 Печать матрицы</Name>
+    <Name>Task_36_Matrix</Name>
     <RootNamespace>Task_36</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
