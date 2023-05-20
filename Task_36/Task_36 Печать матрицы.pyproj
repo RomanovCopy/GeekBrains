@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>47bd3a2f-17ce-4f06-99f4-2ab686b7308c</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Task_34.py</StartupFile>
+    <ProjectGuid>f000cd33-49e7-4897-a836-658423448b17</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Task_36.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Task_34</Name>
-    <RootNamespace>Task_34</RootNamespace>
+    <Name>Task_36 Печать матрицы</Name>
+    <RootNamespace>Task_36</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Task_34.py" />
+    <Compile Include="Task_36.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

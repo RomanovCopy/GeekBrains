@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f000cd33-49e7-4897-a836-658423448b17</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Task_36.py</StartupFile>
+    <ProjectGuid>dc950945-90e3-4e76-8605-e6404a795dfb</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Task_02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Task_36</Name>
-    <RootNamespace>Task_36</RootNamespace>
+    <Name>Decorator</Name>
+    <RootNamespace>Task_02</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Task_36.py" />
+    <Compile Include="Task_02.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

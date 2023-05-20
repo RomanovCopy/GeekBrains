@@ -14,7 +14,7 @@ def count_vowels(phrase):#количество гласных букв
     return len([x for x in phrase.lower() if x in vowels])
 
 
-syllable_count = list(map( lambda x:count_vowels(x), input().split()))
+syllable_count = list(map( lambda x:count_vowels(x), input("Стих :").split()))
 if all(x == syllable_count[0] for x in syllable_count):
     print("Парам пам-пам")
 else:
