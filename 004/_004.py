@@ -1,12 +1,19 @@
+#использование кнопок
 import telebot
+from telebot import types
 import requests
 import time
 
-bot = telebot.TeleBot("Token") 
+bot = telebot.TeleBot("6119292896:AAEZvqy8hW6fx42SKaWBr5_9qyI7NopYdaE") 
+
+markup = types.ReplyKeyboardMarkup(row_width=1)
+btn_reg = types.KeyboardButton('регистрация')
+btn_alarm = types.KeyboardButton('оповещение')
+markup.add(btn_reg, btn_alarm)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-	bot.reply_to(message, "Howdy, how are you doing?")
+	bot.send_message(message.from_user.id, "Привет, я бот Питоша.", reply_markup=markup)
 	
 
 @bot.message_handler(content_types=['text'])
