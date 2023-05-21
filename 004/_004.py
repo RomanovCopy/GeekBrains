@@ -4,7 +4,7 @@ from telebot import types
 import requests
 import time
 
-bot = telebot.TeleBot("6119292896:AAEZvqy8hW6fx42SKaWBr5_9qyI7NopYdaE") 
+bot = telebot.TeleBot("token") 
 
 markup = types.ReplyKeyboardMarkup(row_width=1)
 btn_reg = types.KeyboardButton('регистрация')
