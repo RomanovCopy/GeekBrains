@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Support_telebot", "Support_telebot\Support_telebot.pyproj", "{F602E3E4-8322-489E-9812-407B69FC21F5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "File_question_and_answer", "File_question_and_answer\File_question_and_answer.pyproj", "{32DBE9FF-7C03-4C21-89A1-499C5E802CC5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F602E3E4-8322-489E-9812-407B69FC21F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F602E3E4-8322-489E-9812-407B69FC21F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DBE9FF-7C03-4C21-89A1-499C5E802CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DBE9FF-7C03-4C21-89A1-499C5E802CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
