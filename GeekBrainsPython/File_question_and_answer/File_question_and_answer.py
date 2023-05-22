@@ -3,7 +3,7 @@ import telebot
 
 
 # создаем бота
-bot = telebot.TeleBot('6052933328:AAFUc9gWc-nr9-_SkKH2qz0wn1nm-VfSbMY')
+bot = telebot.TeleBot('TOKEN')
 
 #открытие файла с сообщениями
 def open_file(path):
