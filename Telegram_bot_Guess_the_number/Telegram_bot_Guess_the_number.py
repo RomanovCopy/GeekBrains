@@ -16,7 +16,7 @@ max_number = 1000
 number = randint(min_number, max_number)
 
 ## задаем количество попыток
-#attempts = 0
+attempts = 0
 
 # обработчик команды /start
 @bot.message_handler(commands=['start'])
@@ -34,10 +34,10 @@ def check_number(message):
         if guess < min_number or guess > max_number:
             bot.send_message(message.chat.id, 'Число должно быть от {} до {}.'.format(min_number, max_number))
         elif guess < number:
-            attempts += 1  # уменьшаем количество попыток при неверном ответе
+            attempts += 1 
             bot.send_message(message.chat.id, 'Загаданное число больше. Израсходовано попыток {}.'.format(attempts))
         elif guess > number:
-            attempts += 1  # уменьшаем количество попыток при неверном ответе
+            attempts += 1 
             bot.send_message(message.chat.id, 'Загаданное число меньше. Израсходовано попыток {}.'.format(attempts))
         else:
             bot.send_message(message.chat.id, 'Поздравляю, ты угадал! Израсходовано попыток {}..'.format(attempts))
