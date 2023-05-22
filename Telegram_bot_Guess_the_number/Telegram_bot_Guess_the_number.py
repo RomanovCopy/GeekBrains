@@ -5,41 +5,45 @@
 import telebot
 from random import randint
 
-bot = telebot.TeleBot("TOKEN")
-count=0
-myNumber=randint(1,1000)
+# создаем бота
+bot = telebot.TeleBot('TOKEN')
 
+# задаем диапазон чисел для угадывания
+min_number = 1
+max_number = 1000
 
-@bot.message_handler(commands=['start', 'help'])
-def send_welcome(message):
-	bot.reply_to(message, "Поиграем в числа.\nЯ загадал целое число от 1 до 1000.\nПопробуй отгадать.")
+# генерируем случайное число
+number = randint(min_number, max_number)
 
+## задаем количество попыток
+#attempts = 0
+
+# обработчик команды /start
+@bot.message_handler(commands=['start'])
+def start_message(message):
+    global attempts  # объявляем переменную attempts как глобальную
+    attempts = 0  # сбрасываем количество попыток при каждом запуске игры
+    bot.send_message(message.chat.id, 'Привет! Я загадал число от {} до {}. Попробуй угадать!'.format(min_number, max_number))
+
+# обработчик сообщений с числами
 @bot.message_handler(content_types=['text'])
-def number_game(message):
-	if message.text.isnumeric():
-         number = int(message.text)
-         if examination(myNumber,number,message):
-             bot.reply_to(message, f"Победа!!! Я действительно загдал: {number}\nЧисло угадано за {count} попыток.")
-         else:
-             count+=1
-    #else:
-	   #  bot.reply_to(message, "Это не число")
+def check_number(message):
+    global attempts  # объявляем переменную attempts как глобальную
+    try:
+        guess = int(message.text)
+        if guess < min_number or guess > max_number:
+            bot.send_message(message.chat.id, 'Число должно быть от {} до {}.'.format(min_number, max_number))
+        elif guess < number:
+            attempts += 1  # уменьшаем количество попыток при неверном ответе
+            bot.send_message(message.chat.id, 'Загаданное число больше. Израсходовано попыток {}.'.format(attempts))
+        elif guess > number:
+            attempts += 1  # уменьшаем количество попыток при неверном ответе
+            bot.send_message(message.chat.id, 'Загаданное число меньше. Израсходовано попыток {}.'.format(attempts))
+        else:
+            bot.send_message(message.chat.id, 'Поздравляю, ты угадал! Израсходовано попыток {}..'.format(attempts))
+            bot.stop_polling()  # останавливаем бота
+    except ValueError:
+        bot.send_message(message.chat.id, 'Это не число.')
 
-
-
-def examination(myNumber, number, message):
-    if myNumber>number:
-        bot.reply_to(message, f"Мало... Попытка {count}" )
-        return False
-    elif myNumber<number:
-        bot.reply_to(message, f"Много...  Попытка {count}")
-        return False
-    else:
-        return True
-
-
-
-
+# запускаем бота
 bot.polling()
-
-
