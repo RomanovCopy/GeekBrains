@@ -18,7 +18,6 @@ def send_message(user_name, chat_id, date, message):
 
 #работа с сообщениями
 def work_with_appeals(messages):
-    #array=str(messages).split('\n')
     array=messages
     #разбиваем список на отдельные списки содержащие в себе
     #все данные по каждому запросу(по 4 строки)
