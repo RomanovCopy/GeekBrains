@@ -14,8 +14,11 @@ def handle_message(message):
     now = datetime.datetime.now()
     # Форматирование даты и времени в нужный формат
     formatted_date = now.strftime('%d/%m/%Y/%H/%M/%S')
+    request=message.text
+    if len(request)==0 or request==" ":
+        request="No text"
     # записываем обращение пользователя в файл
-    text=f"{message.chat.username}\n{formatted_date}\n{message.chat.id}\n{message.text}\n"
+    text=f"{message.chat.username}\n{formatted_date}\n{message.chat.id}\n{request}\n"
     file=open('support.log','a', encoding='utf-8')
     file.writelines(text)
     file.close()
