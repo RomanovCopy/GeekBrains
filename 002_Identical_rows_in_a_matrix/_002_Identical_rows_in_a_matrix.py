@@ -7,7 +7,7 @@ matrix = np.random.randint(1, 10, size=(5, 5))
 
 print("Создана матрица:\n", matrix)
 
-#матрица из одинковых строк
+#список из одинковых строк
 unique_rows = np.unique(matrix, axis=0)
 #уникальных строк
 unique_rows_len=unique_rows.shape[0]
