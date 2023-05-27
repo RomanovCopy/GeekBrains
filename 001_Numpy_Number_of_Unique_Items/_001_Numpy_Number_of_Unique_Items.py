@@ -2,10 +2,11 @@
 
 import numpy as np
 
-my_list = [1, 2, 3, 4, 2, 3, 1, 5, 6, 7, 8, 6]
+my_list = np.random.randint(1, 100, size=20)
 
-unique_elements, counts = np.unique(my_list, return_counts=True)
+#unique_elements, counts = np.unique(my_list, return_counts=True)
 
-print("Уникальные элементы:", unique_elements)
-print("Количество каждого элемента:", counts)
-print("Количество уникальных элементов:", len(unique_elements))
+print(f"Создан список : {my_list}")
+print(f"Количество уникальных элементов : {len( np.unique(my_list))}", )
+#print("Количество каждого элемента:", counts)
+#print("Количество уникальных элементов:", len(unique_elements))
